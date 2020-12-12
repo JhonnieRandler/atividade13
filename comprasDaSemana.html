@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revenda Herbie - Consignados</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="img" class="col-sm-4">
+                <img src="img/img01.jpg" style="width: 100%;">
+            </div>
+        
+            <div id="txt" class="col-sm-8">
+                <h1 class="mb-2 mt-3">Compras da Semana</h1>
+                <p class="mb-0">
+                    <label for="produto">Produto:</label>
+                </p>
+                <p>
+                    <input type="text" id="produto" class="form-control" autofocus>
+                </p>
+                <p>
+                    <button class="btn btn-primary" id="adicionar">Adicionar</button>
+                    <button class="btn btn-danger" id="limpar">Limpar Lista</button>
+                </p>
+                <pre id="produtosAdd" style="font-size: 1.2em;"></pre>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/comprasDaSemana.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+</body>
+</html>
