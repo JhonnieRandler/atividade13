@@ -32,8 +32,9 @@ function exibir() {
         produtosAdd.innerHTML = '';
         return;
     }
+    let vetOrdenado = vetCompras.map(function(prod) { return prod }).sort();
     let texto = 'Produtos Adicionados\n-----------------------\n';
-    vetCompras.forEach(function (prod) {
+    vetOrdenado.forEach(function (prod) {
         texto += prod + '\n';
     })
 
